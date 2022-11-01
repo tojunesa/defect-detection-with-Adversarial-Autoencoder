@@ -14,12 +14,12 @@ This project describes a unsupervised defect detection method by using a generat
 ## Algorithm illustration
 
 Train with normal samples.
-<p align="center">
+<p align="left">
   <img src="https://github.com/tojunesa/defect-detection-with-GAN/blob/main/img/algorithm%20illustration%201.png" width="600"/>
 </p>
 
 Reconstruct defective samples and obtain residual images.
-<p align="center">
+<p align="left">
   <img src="https://github.com/tojunesa/defect-detection-with-GAN/blob/main/img/algorithm%20illustration%202.png" width="600"/>
 </p>
 
