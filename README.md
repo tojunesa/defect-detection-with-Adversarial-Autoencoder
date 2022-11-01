@@ -12,12 +12,17 @@ Supervised machine learning methods have been sucessfully applied to the problem
 This project describes a unsupervised defect detection method by using a generative adversarial network to reconstruct the normal samples. After training, the generator is asked to reconstruct defective samples. Because the model is purely trained on normal samples, it does not process the knowledge or experience to reconstruct defects. The defects will be removed in the reconstructed image. A residual image can be obtained by simply subtracting the defect image from the reconstructed image, where defects can be clearly identified and located.
 
 ## Algorithm illustration
-Train with normal samples.
-<img src="https://github.com/tojunesa/defect-detection-with-GAN/blob/main/img/algorithm%20illustration%201.png" width="600"/>
 
+Train with normal samples.
+<p align="center">
+  <img src="https://github.com/tojunesa/defect-detection-with-GAN/blob/main/img/algorithm%20illustration%201.png" width="600"/>
+</p>
 
 Reconstruct defective samples and obtain residual images.
-<img src="https://github.com/tojunesa/defect-detection-with-GAN/blob/main/img/algorithm%20illustration%202.png" width="600"/>
+<p align="center">
+  <img src="https://github.com/tojunesa/defect-detection-with-GAN/blob/main/img/algorithm%20illustration%202.png" width="600"/>
+</p>
+
 
 ## Results
 
