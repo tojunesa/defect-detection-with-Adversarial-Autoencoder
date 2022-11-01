@@ -1,5 +1,5 @@
 ﻿
-# Defect detection with a GAN
+# Defect detection with an Adversarial Autoencoder
 
 ## Introduction
 
@@ -9,7 +9,7 @@ Traditional optical defection detection relies on hand-engineered filters and ke
 
 Supervised machine learning methods have been sucessfully applied to the problem and reached unparallel accuracy and effeciency. However, supervised machine learning models demand a large amount of human annotated data. In the meantime, the number of defective samples is usually limited, which raises the data imbalancement problem.
 
-This project describes a unsupervised defect detection method by using a generative adversarial network to reconstruct the normal samples. After training, the generator is asked to reconstruct defective samples. Because the model is purely trained on normal samples, it does not process the knowledge or experience to reconstruct defects. The defects will be removed in the reconstructed image. A residual image can be obtained by simply subtracting the defect image from the reconstructed image, where defects can be clearly identified and located.
+This project describes a unsupervised defect detection method by using an adversarial autoencoder to reconstruct the normal samples. After training, the generator is asked to reconstruct defective samples. Because the model is purely trained on normal samples, it does not process the knowledge or experience to reconstruct defects. The defects will be removed in the reconstructed image. A residual image can be obtained by simply subtracting the defect image from the reconstructed image, where defects can be clearly identified and located.
 
 ## Algorithm illustration
 
